@@ -8,7 +8,7 @@ RUN apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \
     && apt-get install -y --no-install-recommends --assume-yes \
         ca-certificates \
-        curl iproute2 net-tools unzip wget nodejs
+        curl iproute2 net-tools unzip wget nodejs npm
 
 RUN npm install -g colors
 
