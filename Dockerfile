@@ -10,4 +10,6 @@ RUN apt-get update \
         ca-certificates \
         curl iproute2 net-tools unzip wget nodejs
 
+RUN npm install -g colors
+
 WORKDIR /opt
